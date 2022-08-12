@@ -14,6 +14,7 @@ import json
 import collections
 
 reload(sys)
+#sys.setdefaultencoding("utf-8")
 
 CN_CHARSET = None
 CN_T_CHARSET = None

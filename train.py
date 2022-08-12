@@ -2,7 +2,8 @@
 from __future__ import print_function
 from __future__ import absolute_import
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+#import tensorflow as tf
 import argparse
 
 from model.unet import UNet

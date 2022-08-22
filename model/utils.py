@@ -70,6 +70,7 @@ def merge(images, size):
 
 def save_concat_images(imgs, img_path):
     concated = np.concatenate(imgs, axis=1)
+    print("min and max of img", np.min(concated), np.max(concated))
     imageio.imwrite(img_path, concated)
 #    misc.imsave(img_path, concated)
 
@@ -77,6 +78,7 @@ def save_concat_images(imgs, img_path):
 def compile_frames_to_gif(frame_dir, gif_file):
     frames = sorted(glob.glob(os.path.join(frame_dir, "*.png")))
     print(frames)
-    images = [misc.imresize(imageio.imread(f), interp='nearest', size=0.33) for f in frames]
+    images = [imageio.imread(f) for f in frames]
+#    images = [misc.imresize(imageio.imread(f), interp='nearest', size=0.33) for f in frames]
     imageio.mimsave(gif_file, images, duration=0.1)
     return gif_file

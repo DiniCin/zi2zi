@@ -72,22 +72,23 @@ You can enable label shuffling by setting **flip_labels=1** option in **train.py
 ## How to Use
 
 > Note from Dini
-
+>
 > - The label ids of the output are determined while generating label images, they are the actually the prefixs of the image files. So if you what the model learns to output 2 styles, the pre-generated data folder is like this:
+>
+>```
+>.
+>├── 0_0000.jpg
+>├── 0_0001.jpg
+>├── 0_0002.jpg
+>├── 0_0003.jpg
+>├── .....
+>├── 1_0000.jpg
+>├── 1_0001.jpg
+>├── 1_0002.jpg
+>├── 1_0003.jpg
+>
+>```
 
-```
-.
-├── 0_0000.jpg
-├── 0_0001.jpg
-├── 0_0002.jpg
-├── 0_0003.jpg
-├── .....
-├── 1_0000.jpg
-├── 1_0001.jpg
-├── 1_0002.jpg
-├── 1_0003.jpg
-
-```
 > For each image, it consist a pair of char image, RHS is input, LHS is output.
 
 Such as those 2:

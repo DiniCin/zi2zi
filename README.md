@@ -95,14 +95,15 @@ You can enable label shuffling by setting **flip_labels=1** option in **train.py
 > And for each image, it consist a pair of char image, RHS is input, LHS is output.
 > 
 > Such as those 2:
-
+>
 > <p align="center">
 > <img src="assets/0_0000.jpg" alt="cursive"  width="200"/>
 > </p>
-
-<p align="center">
-<img src="assets/1_0000.jpg" alt="cursive"  width="200"/>
-</p>
+>
+> <p align="center">
+> <img src="assets/1_0000.jpg" alt="cursive"  width="200"/>
+> </p>
+> 
 
 
 ### Step Zero

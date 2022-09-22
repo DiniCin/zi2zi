@@ -90,7 +90,7 @@ You can enable label shuffling by setting **flip_labels=1** option in **train.py
 ```
 For each image, it consist a pair of char image, RHS is input, LHS is output.
 
-Such as 
+Such as those 2:
 
 <p align="center">
 <img src="assets/0_0000.jpg" alt="cursive"  width="200"/>
@@ -100,8 +100,6 @@ Such as
 <img src="assets/1_0000.jpg" alt="cursive"  width="200"/>
 </p>
 
-
-![](assets/0_0000.jpg) and ![](assets/1_0000.jpg)
 
 ### Step Zero
 Download tons of fonts as you please

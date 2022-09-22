@@ -74,9 +74,9 @@ You can enable label shuffling by setting **flip_labels=1** option in **train.py
 > Note from Dini
 >
 > - The label ids of the output are determined while generating label images, they are the actually the prefixs of the image files. 
->  Every style of output labels requires a set of images, sharing the same style of font as input style for the model.
-> Interpolation can be done between different styles of expected output, but not for the input style text.
-> So if you what the model learns to output 2 styles, the pre-generated data folder is like this:
+>  - Every style of output labels requires a set of images, sharing the same style of font as input style for the model.
+> - Interpolation can be done between different styles of expected output, but not for the input style text.
+> - So if you what the model learns to output 2 styles, the pre-generated data folder is like this:
 >
 >```
 >.
